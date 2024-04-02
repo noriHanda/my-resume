@@ -183,7 +183,7 @@
     ),
   )
   set text(
-    font: "Roboto",
+    font: "Hiragino Mincho Pro",
     size: textSize.normal,
   )
   set list(marker: (text(colors.accentColor)[•], text(colors.accentColor)[--]))

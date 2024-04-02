@@ -1,166 +1,167 @@
 #import "modern-resume.typ": modern-resume, workExperience, educationalExperience, project, pill
 
 #let data = (
-  name: "Noriaki Handa",
-  jobTitle: "Mobile App Engineer",
-  bio: "An experienced Flutter developer",                  // Optional parameter
-  avatarImagePath: "picture.jpeg",  // Optional parameter
-  contactOptions: (               // Optional parameter, all entries are optional
+  name: "半田寛明",
+  jobTitle: "モバイルアプリエンジニア",
+  bio: "どのような場面でも活躍するFlutter開発者",                  
+  avatarImagePath: "picture.jpeg",  
+  contactOptions: (               
     email: link("mailto:noriakihanda@gmail.com")[noriakihanda\@gmail.com],
     mobile: "+81 80 6672 7600",
-    location: "Japan",
+    location: "日本",
     linkedin: link("https://www.linkedin.com/in/noriaki-handa-8a18221aa/")[linkedin/noriaki-handa-8a18221aa],
     github: link("https://github.com/noriHanda")[github.com/noriHanda],
-    // website: link("https://jdoe.dev")[jdoe.dev],
   ),
 )
 
 #show: doc => modern-resume(data, doc)
 
-== Education
+== 教育
 
 #educationalExperience(
-  title: "B.S. in Computer Science",
-  subtitle: "Hokkaido University",
+  title: "学士（工学）",
+  subtitle: "北海道大学",
   taskDescription: [
-    - Integrated System Engineering and Computer Engineering using Verilog HDL
-    - Kinesthetic sense based on evaluation of actuator energy for artificial sense in myoelectric prosthetic hands
+    - Verilog HDLを使用した統合システムエンジニアリングとコンピュータエンジニアリング
+    - リザバー計算を用いた筋電義手の人工感覚開発のための駆動部エネルギー評価の研究
   ],
-  dateFrom: "04/2019",
-  dateTo: "03/2024",
+  dateFrom: "2019年4月",
+  dateTo: "2024年3月",
 )
 
 #educationalExperience(
-  title: "National Honor Society",
+  title: "National Honor Society ",
   subtitle: "William Fremd High School",
   taskDescription: [
-    - College-level AP courses in Computer Science, Calculus, and Physics
-    - Enrolled in the National Honor Society
+    - コンピュータサイエンス、微積分、物理学の大学レベルのAPコース
+    - National Honor Society に入会
   ],
-  dateFrom: "09/2018",
-  dateTo: "07/2021",
+  dateFrom: "2015年9月",
+  dateTo: "2018年5月",
 )
 
-== Work experience
+== 職歴
 
 #workExperience(
-  title: "Mobile App Developer",
-  subtitle: [#link("https://h-medtech.com/")[Hedgehog Medtech, Inc.]],
-  facilityDescription: "Medical treatment app development company",
+  title: "モバイルアプリ開発者",
+  subtitle: [#link("https://h-medtech.com/")[ヘッジホッグメドテック株式会社]],
+  facilityDescription: "アプリ治療薬製造販売会社",
   taskDescription: [
-    - Spearheaded the development of critical medical treatment apps, improving patient conditions on migraine and premenstrual syndrome collaborating with designers who made wireframes on Figma.
-    - Collaborated closely with healthcare professionals to ensure the apps met rigorous industry standards and user needs.
-    - Setted up and maintained the CI/CD pipeline for the mobile app distribution. Reduced the cost of app distribution by more than 80%.
+    - Figma上にUIをデザインしたデザイナーと協力して、片頭痛と月経前症候群に関する重要な医療治療アプリの開発を主導しました。
+    - アプリが厳格な業界基準とユーザーのニーズを満たしていることを確認するために、医療専門家と密接に協力しました。
+    - モバイルアプリ配布用のCI/CDパイプラインを設定しました。アプリ配布にかかるコストを80%以上削減しました。
   ],
-  dateFrom: "08/2021",
+  dateFrom: "2021年8月",
 )
 
 #workExperience(
-  title: "Contract Development",
+  title: "受託開発",
   subtitle: [#link("https://apps.apple.com/app/id6466738852")[Rakulip]],
-  facilityDescription: "A video editor app for researchers in Hokkaido University",
+  facilityDescription: "北海道大学の研究者向け動画編集アプリ",
   taskDescription: [
-    - Evaluated requirements and designed the architecture of the app.
-    - Developed the app using Flutter and FFmpeg.
-    - Released the app on the App Store and Google Play.
-    - Demonstrated and supported the use of the app at a conference.
-    - Enhanced the app based on feedback from users and achieved 30% increase in store rating.
-    - Fixed bugs and improved video quality by making adjustment to the FFmpeg parameters.
+    - 要件を評価し、アプリのアーキテクチャを設計しました。
+    - FlutterとFFmpegを使用してアプリを開発しました。
+    - アプリをApp StoreとGoogle Playにリリースしました。
+    - 会議でアプリの使用方法をデモンストレーションし、サポートしました。
+    - ユーザーからのフィードバックに基づいてアプリを改善し、ストア評価を30%向上させました。
+    - バグを修正し、FFmpegパラメータの調整によりビデオ品質を改善しました。
   ],
-  dateFrom: "08/2023",
-  dateTo: "03/2024",
+  dateFrom: "2023年8月",
+  dateTo: "2024年3月",
 )
 
 #workExperience(
-  title: "Product Manager/Mobile App Developer",
-  subtitle: [#link("https://thephage.life/")[THE PHAGE, Inc.]],
-  facilityDescription: "Medical treatment app development company",
+  title: "プロダクトマネージャー/モバイルアプリ開発者",
+  subtitle: [#link("https://thephage.life/")[THE PHAGE株式会社]],
+  facilityDescription: "治療アプリ開発会社",
   taskDescription: [
-    - Made a blueprint of the team and the product and led the company to the next stage.
-    - Developed a mobile app that makes biabetes treatment more efficient.
-    - Selected technologies that were best suited for the product and the team and led the company to have a better presence in the market.
-    - Researched and developed a cutting edge algorithm that processes signals from a wearable device and predicts the user's blood sugar level.
+    - チームと製品の設計図を作成し、会社を次の段階へと導きました。
+    - 糖尿病治療を効率化にするモバイルアプリを開発しました。
+    - 製品とチームに最適な技術を選択し、市場での会社の存在感を高めました。
+    - 身につけるデバイスからの信号を処理し予測するアルゴリズムを研究・開発しました。
   ],
-  dateFrom: "12/2020",
-  dateTo: "07/2022",
+  dateFrom: "2020年12月",
+  dateTo: "2022年7月",
 )
 
 #workExperience(
-  title: "Chief Technology Officer",
-  subtitle: "Conomai, Inc.",
-  facilityDescription: "Medical treatment company",
+  title: "CTO",
+  subtitle: "コノマイ株式会社",
+  facilityDescription: "医療系スタートアップ",
   taskDescription: [
-    - Made several minimum viable products and conducted user interviews to find out the best product for the company and the market.
-    - Inquired to venture capitalists and banks and raised funds for the company.
-    - Made capital plans and business plans and led the company to the next stage with the cofounders.
+    - 複数の最小限の実行可能製品を作成し、ユーザーインタビューを実施して、会社と市場に最適な製品を策定しました。
+    - ベンチャーキャピタリストと銀行と協議を重ね、会社の資金を調達しました。
+    - 資本計画と事業計画を作成し、共同創業者とともに会社を次の段階へと導きました。
   ],
-  dateFrom: "09/2019",
-  dateTo: "02/2020",
-)
-
-#workExperience(
-  title: "Internship",
-  subtitle: [#link("https://www.digitalgrid.com/")[DIGITAL GRID, Inc.]],
-  facilityDescription: "Electricity traceability and trading company",
-  taskDescription: [
-    - Explained the company's business at a conference and led to further business opportunities.
-    - Interviewed all the people in the company and made interview articles so that everyone in the company could better understand each other.
-  ],
-  dateFrom: "08/2020",
-  dateTo: "09/2020",
+  dateFrom: "2019年9月",
+  dateTo: "2020年2月",
 )
 
 #colbreak()
 
-== Skills
+== スキル
 
 #pill("Flutter", fill: true)
 #pill("Riverpod", fill: true)
-#pill("App Deployment", fill: true)
+#pill("アプリ展開", fill: true)
 #pill("Git/GitHub", fill: true)
 #pill("Jira", fill: true)
-#pill("Product Management", fill: true)
-#pill("Teamwork", fill: true)
-#pill("Critical thinking", fill: true)
-#pill("Problem solving", fill: true)
+#pill("プロダクトマネジメント", fill: true)
+#pill("チームワーク", fill: true)
+#pill("批判的思考", fill: true)
+#pill("問題解決", fill: true)
 
-== Projects
+
+#workExperience(
+  title: "インターンシップ",
+  subtitle: [#link("https://www.digitalgrid.com/")[DIGITAL GRID株式会社]],
+  facilityDescription: "トレーサブルな電力取引会社",
+  taskDescription: [
+    - 展示会でサービスの説明を行い、会社の認知向上につなげました。
+    - 会社の全員をインタビューし、社内向けインタビュー記事を作成して、会社内の全員が互いをより理解できるようにしました。
+  ],
+  dateFrom: "2020年8月",
+  dateTo: "2020年9月",
+)
+
+
+== プロジェクト
 
 #project(
   title: link("https://github.com/torkralle/notion_wordbook")[Notion Wordbook],
-  subtitle: "Vocabulary learning app for Notion users",
+  subtitle: "Notionユーザーのための単語帳アプリ",
   description: [
-    - Developed with a team of three people using Flutter and Notion API.
-    - The app had a feature that references the user's Notion database and creates a vocabulary list out of it.
-    - Reviewed code and taught anything needed to junior members.
+    - FlutterとNotion APIを使用して、3人チームで開発しました。
+    - ユーザーのNotionデータベースを参照し、それから語彙リストを作成する機能を実装しました。
+    - コードをレビューし、後輩メンバーの成長に繋がる指導を行いました。
   ],
-  dateFrom: "02/2022",
-  dateTo: "08/2022",
+  dateFrom: "2022年2月",
+  dateTo: "2022年8月",
 )
 
 #project(
   title: link("https://github.com/noriHanda/study_matching_flutter")[Study Matching],
-  subtitle: "SNS for campus students",
+  subtitle: "キャンパス生のためのSNS",
   description: [
-    - Developed with a team of three people using Flutter and Django REST framework.
-    - The app had a feature that matches students who want to study together.
-    - The number of users hit 1000 in 3 months.
+    - FlutterとDjango REST frameworkを使用して、3人のチームで開発しました。
+    - 一緒に勉強したい学生をマッチングする機能がありました。
+    - 3ヶ月でユーザー数が1000人に達しました。
   ],
-  dateFrom: "06/2019",
-  dateTo: "09/2020",
+  dateFrom: "2019年6月",
+  dateTo: "2020年9月",
 )
 
-== Languages
+== 言語
 
-#pill("Japanese (native)")
-#pill("English (fluent)")
+#pill("日本語")
+#pill("英語")
 
-== Interests
+== 趣味・関心事
 
-#pill("Buddhism")
-#pill("Indian Philosophy")
-#pill("Philosophy")
-#pill("European Football")
-#pill("Folkloristics")
-#pill("Agriscience")
-#pill("History")
+#pill("仏教学")
+#pill("インド哲学")
+#pill("哲学")
+#pill("ヨーロッパサッカー")
+#pill("民俗学")
+#pill("農学")
+#pill("歴史")
