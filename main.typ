@@ -8,7 +8,7 @@
   contactOptions: (               
     email: link("mailto:noriakihanda@gmail.com")[noriakihanda\@gmail.com],
     mobile: "+81 80 6672 7600",
-    location: "日本",
+    location: "札幌",
     linkedin: link("https://www.linkedin.com/in/noriaki-handa-8a18221aa/")[linkedin/noriaki-handa-8a18221aa],
     github: link("https://github.com/noriHanda")[github.com/noriHanda],
   ),
