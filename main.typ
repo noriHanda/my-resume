@@ -37,8 +37,8 @@
     - College-level AP courses in Computer Science, Calculus, and Physics
     - Enrolled in the National Honor Society
   ],
-  dateFrom: "09/2018",
-  dateTo: "07/2021",
+  dateFrom: "08/2015",
+  dateTo: "05/2018",
 )
 
 == Work experience
@@ -52,7 +52,7 @@
     - Collaborated closely with healthcare professionals to ensure the apps met rigorous industry standards and user needs.
     - Setted up and maintained the CI/CD pipeline for the mobile app distribution. Reduced the cost of app distribution by more than 80%.
   ],
-  dateFrom: "08/2021",
+  dateFrom: "08/2022",
 )
 
 #workExperience(
