@@ -53,6 +53,7 @@
     - Setted up and maintained the CI/CD pipeline for the mobile app distribution. Reduced the cost of app distribution by more than 80%.
   ],
   dateFrom: "08/2022",
+  dateTo: "03/2024",
 )
 
 #workExperience(
