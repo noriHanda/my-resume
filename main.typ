@@ -7,7 +7,7 @@
   avatarImagePath: "picture.jpeg",  // Optional parameter
   contactOptions: (               // Optional parameter, all entries are optional
     email: link("mailto:noriakihanda@gmail.com")[noriakihanda\@gmail.com],
-    mobile: "+81 80 6672 7600",
+    mobile: link("tel:+818066727600")[+81 80 6672 7600],
     location: "Japan",
     linkedin: link("https://www.linkedin.com/in/noriaki-handa-8a18221aa/")[linkedin/noriaki-handa-8a18221aa],
     github: link("https://github.com/noriHanda")[github.com/noriHanda],
