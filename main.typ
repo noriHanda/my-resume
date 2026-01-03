@@ -2,8 +2,8 @@
 
 #let data = (
   name: "Noriaki Handa",
-  jobTitle: "Mobile App Engineer (Flutter / iOS / Android)",
-  bio: "Flutter/Riverpod specialist with deep-link and AI-assisted delivery experience.", // Optional parameter
+  jobTitle: "Technical Product / Project Manager (Mobile)",
+  bio: "Technical PM with a mobile engineering background (Flutter / iOS / Android). Leads requirements, execution, and AI-enabled delivery. Available from Apr 2026.", // Optional parameter
   avatarImagePath: "picture.jpeg",  // Optional parameter
   contactOptions: (               // Optional parameter, all entries are optional
     email: link("mailto:noriakihanda@gmail.com")[noriakihanda\@gmail.com],
@@ -44,13 +44,13 @@
 == Work experience
 
 #workExperience(
-  title: "Flutter Engineer",
+  title: "Mobile App Engineer",
   subtitle: [#link("https://www.teamlab.art/")[teamLab Inc.]],
   facilityDescription: "Ticket sales & video streaming app development",
   taskDescription: [
-    - Authored requirement specs from wireframes and implemented core features (incl. 3rd-party login) in a large-scale project.
-    - Established development guidelines (tech selection format, coding rules) and improved delivery quality via code reviews and tests (incl. Visual Regression Testing).
-    - Improved team workflows by integrating AI into spec-driven development (design/implementation/review).
+    - Converted wireframes into specs and aligned stakeholders; delivered core features (incl. 3rd-party auth) in a large-scale project.
+    - Introduced decision templates and engineering guidelines (tech selection format, coding rules) to improve delivery quality and predictability.
+    - Embedded AI into the delivery loop (spec drafting, investigation, review checklists) to reduce rework and shorten feedback cycles.
   ],
   dateFrom: "08/2024",
   dateTo: "Present",
@@ -61,77 +61,87 @@
   subtitle: "Japan Advanced Communication Co., Ltd.",
   facilityDescription: "Client-facing mobile app development (multiple projects)",
   taskDescription: [
-    - Led requirements, architecture, and delivery across multiple Flutter projects; drove stakeholder alignment and scheduling.
-    - Shipped #link("https://apps.apple.com/app/id6466738852")[Rakulip] (on-device research video editor) on iOS/Android: built an FFmpeg-based editing pipeline, optimized quality/performance, and managed releases.
-    - Since 09/2025, delivered an external camera device integration app (confidential) for iOS/Android using Swift/Kotlin + Kotlin Multiplatform; validated SDK constraints via prototypes and produced handover documentation.
-    - Increased delivery speed and consistency by applying AI-assisted workflows for spec drafting, implementation, and reviews.
+    - Owned end-to-end delivery for multiple client projects: requirements definition, prioritization, scheduling, progress tracking, and release coordination.
+    - Delivered #link("https://apps.apple.com/app/id6466738852")[Rakulip] (on-device research video editor): managed roadmap and releases while contributing hands-on to an FFmpeg-based editing pipeline and quality/performance tuning.
+    - Since 09/2025, led discovery/prototyping and cross-team coordination for an external camera device integration app (confidential) on iOS/Android (Swift/Kotlin + Kotlin Multiplatform), including handover documentation.
+    - Standardized AI-assisted workflows for specs, estimation, and reviews to improve speed and consistency across projects.
   ],
   dateFrom: "08/2023",
   dateTo: "Present",
 )
 
 #workExperience(
-  title: "Flutter Engineer",
+  title: "Technical Project Lead (Flutter)",
   subtitle: [#link("https://h-medtech.com/")[Hedgehog Medtech, Inc.]],
   facilityDescription: "Migraine & PMS medical treatment app development",
   taskDescription: [
-    - Drove tech selection and Flutter architecture design; established coding rules and reusable components.
-    - Built CI/CD for app distribution (CodeMagic) and streamlined release operations.
-    - Implemented features with Riverpod/Freezed/i18n, reviewed code, and mentored cross-functional members on Flutter.
+    - Coordinated requirements with PM/design/medical stakeholders and translated them into specs and milestones for two medical treatment apps.
+    - Led architecture/tech selection and established coding standards, CI/CD (CodeMagic), and release checklists.
+    - Maintained quality via code reviews and mentoring; delivered features with Riverpod/Freezed/i18n.
   ],
   dateFrom: "08/2022",
   dateTo: "03/2024",
 )
 
 #workExperience(
-  title: "PdM / Flutter Engineer",
+  title: "Technical Product Manager / Flutter Engineer",
   subtitle: [#link("https://thephage.life/")[THE PHAGE Inc.]],
   facilityDescription: "Diabetes medical treatment app development",
   taskDescription: [
-    - Coordinated requirements across stakeholders and defined product/tech direction in an early-stage startup.
-    - Designed and shipped a Flutter app with Riverpod, i18n, and local DB; handled release and internal rollout.
-    - Researched and prototyped signal-processing based prediction for glucose trend analysis.
+    - Defined product direction and execution plan in an early-stage startup; aligned stakeholders and ran user discovery.
+    - Designed and shipped a Flutter app (Riverpod/i18n/local DB), including release management and internal rollout.
+    - Researched and prototyped signal-processing based prediction as a differentiating product feature.
   ],
   dateFrom: "11/2021",
   dateTo: "07/2022",
+)
+
+#workExperience(
+  title: "CTO / Co-founder",
+  subtitle: "Conomai, Inc.",
+  facilityDescription: "New business creation for chronic kidney disease patients",
+  taskDescription: [
+    - Led customer discovery (market research, interviews) and translated findings into product strategy and MVP scope.
+    - Built prototypes, defined operations, and aligned co-founders and external stakeholders on decisions and priorities.
+    - Supported fundraising and team building to move from concept to an execution-ready plan.
+  ],
+  dateFrom: "02/2021",
+  dateTo: "07/2021",
 )
 
 #colbreak()
 
 == Skills
 
-#pill("Flutter", fill: true)
-#pill("Dart", fill: true)
-#pill("Riverpod", fill: true)
-#pill("Deep Links", fill: true)
-#pill("OAuth2.0/OIDC", fill: true)
-#pill("AI-assisted development (Codex/Cursor/Copilot)", fill: true)
-#pill("Swift")
-#pill("Kotlin")
+#pill("Product Management", fill: true)
+#pill("Project Management", fill: true)
+#pill("Requirements & Spec Writing", fill: true)
+#pill("Stakeholder Management", fill: true)
+#pill("Roadmapping / Prioritization", fill: true)
+#pill("AI-enabled Delivery", fill: true)
+#pill("Agile / Sprint Planning")
+#pill("Jira / Notion / Figma")
+#pill("Flutter / Dart")
+#pill("iOS / Android")
 #pill("Kotlin Multiplatform")
-#pill("GoRouter")
-#pill("AutoRoute")
-#pill("Freezed")
-#pill("FFmpeg")
-#pill("Firebase / Firestore")
-#pill("CI/CD (CodeMagic/CircleCI/GitHub Actions)")
-#pill("Git/GitHub")
-#pill("melos (multi-package)")
+#pill("Deep Links / OAuth/OIDC")
+#pill("CI/CD & Release Management")
 #pill("Testing / VRT")
+#pill("Git/GitHub")
 
 == AI
 
-- Use LLMs to accelerate spec-driven development: drafting specs, implementation plans, review checklists, and documentation.
-- Improve delivery speed and quality by integrating AI into day-to-day debugging and refactoring workflows.
+- Use LLMs for PRDs/specs, user stories, acceptance criteria, and decision logs to keep teams aligned.
+- Use AI for estimation/risk analysis, meeting summaries, and review checklists to reduce rework and keep projects on track.
 
 == Projects
 
 #project(
   title: "Prakasya",
-  subtitle: "AI-assisted rapid prototyping (React + Supabase)",
+  subtitle: "Product discovery & validation (React + Supabase)",
   description: [
-    - Built a validation environment (LP + waitlist + DB + analytics) in 2 days using React/Vite and Supabase.
-    - Used Codex/LLMs to iterate quickly and acquired 150 waitlist signups.
+    - Defined target, messaging, and success metrics; built LP + waitlist + DB + analytics in 2 days and acquired 150 waitlist signups.
+    - Used Codex/LLMs to iterate copy, UX, and implementation quickly and validate hypotheses with real user data.
   ],
   dateFrom: "07/2025",
   dateTo: "Present",
@@ -139,9 +149,9 @@
 
 #project(
   title: link("https://github.com/torkralle/notion_wordbook")[Notion Wordbook],
-  subtitle: "Vocabulary learning app for Notion users",
+  subtitle: "Product delivery (Flutter + Notion API)",
   description: [
-    - Designed the app architecture and implemented features with Flutter + Riverpod.
+    - Defined MVP scope and backlog, then shipped features with a small team.
     - Established coding rules, reviewed code, and mentored junior members via pair programming.
   ],
   dateFrom: "02/2022",
@@ -150,10 +160,10 @@
 
 #project(
   title: link("https://github.com/noriHanda/study_matching_flutter")[Study Matching],
-  subtitle: "Campus community app (Flutter + Django REST)",
+  subtitle: "Product launch & community growth (Flutter + Django REST)",
   description: [
-    - Launched and operated the app from zero to release; reached ~20% student registration at the university.
-    - Maintained backend infra (Django REST + PostgreSQL + Docker) and led code reviews and team onboarding.
+    - Launched and operated the app from zero to release; reached ~20% student registration at the university through continuous user feedback.
+    - Coordinated a small team while maintaining backend infra (Django REST + PostgreSQL + Docker).
   ],
   dateFrom: "06/2019",
   dateTo: "09/2020",
