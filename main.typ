@@ -2,13 +2,13 @@
 
 #let data = (
   name: "Noriaki Handa",
-  jobTitle: "Mobile App Engineer",
-  bio: "An experienced Flutter developer",                  // Optional parameter
+  jobTitle: "Mobile App Engineer (Flutter / iOS / Android)",
+  bio: "Flutter/Riverpod specialist with deep-link and AI-assisted delivery experience.", // Optional parameter
   avatarImagePath: "picture.jpeg",  // Optional parameter
   contactOptions: (               // Optional parameter, all entries are optional
     email: link("mailto:noriakihanda@gmail.com")[noriakihanda\@gmail.com],
     mobile: link("tel:+818066727600")[+81 80 6672 7600],
-    location: "Japan",
+    location: "Sapporo, Japan",
     linkedin: link("https://www.linkedin.com/in/noriaki-handa-8a18221aa/")[linkedin/noriaki-handa-8a18221aa],
     github: link("https://github.com/noriHanda")[github.com/noriHanda],
     // website: link("https://jdoe.dev")[jdoe.dev],
@@ -20,22 +20,22 @@
 == Education
 
 #educationalExperience(
-  title: "B.S. in Computer Science",
-  subtitle: "Hokkaido University",
+  title: "B.Eng. in Electrical & Electronic Engineering",
+  subtitle: "Hokkaido University (Information Electronics)",
   taskDescription: [
-    - Integrated System Engineering and Computer Engineering using Verilog HDL
-    - Kinesthetic sense based on evaluation of actuator energy for artificial sense in myoelectric prosthetic hands
+    - Computer engineering fundamentals (e.g., Verilog HDL)
+    - Research: evaluation of actuator energy for artificial sense in myoelectric prosthetic hands
   ],
   dateFrom: "04/2019",
   dateTo: "03/2024",
 )
 
 #educationalExperience(
-  title: "National Honor Society",
-  subtitle: "William Fremd High School",
+  title: "High School Diploma (English immersion)",
+  subtitle: "William Fremd High School (Illinois, USA)",
   taskDescription: [
-    - College-level AP courses in Computer Science, Calculus, and Physics
-    - Enrolled in the National Honor Society
+    - Studied full-time in an English environment; strengthened academic writing and communication.
+    - AP-level coursework in Computer Science, Calculus, and Physics; National Honor Society.
   ],
   dateFrom: "08/2015",
   dateTo: "05/2018",
@@ -44,71 +44,56 @@
 == Work experience
 
 #workExperience(
-  title: "Mobile App Developer",
-  subtitle: [#link("https://h-medtech.com/")[Hedgehog Medtech, Inc.]],
-  facilityDescription: "Medical treatment app development company",
+  title: "Flutter Engineer",
+  subtitle: [#link("https://www.teamlab.art/")[teamLab Inc.]],
+  facilityDescription: "Ticket sales & video streaming app development",
   taskDescription: [
-    - Spearheaded the development of critical medical treatment apps, improving patient conditions on migraine and premenstrual syndrome collaborating with designers who made wireframes on Figma.
-    - Collaborated closely with healthcare professionals to ensure the apps met rigorous industry standards and user needs.
-    - Setted up and maintained the CI/CD pipeline for the mobile app distribution. Reduced the cost of app distribution by more than 80%.
+    - Authored requirement specs from wireframes and implemented core features (incl. 3rd-party login) in a large-scale project.
+    - Established development guidelines (tech selection format, coding rules) and improved delivery quality via code reviews and tests (incl. Visual Regression Testing).
+    - Improved team workflows by integrating AI into spec-driven development (design/implementation/review).
+  ],
+  dateFrom: "08/2024",
+  dateTo: "Present",
+)
+
+#workExperience(
+  title: "Senior Technology Project Manager",
+  subtitle: "Japan Advanced Communication Co., Ltd.",
+  facilityDescription: "Client-facing mobile app development (multiple projects)",
+  taskDescription: [
+    - Led requirements, architecture, and delivery across multiple Flutter projects; drove stakeholder alignment and scheduling.
+    - Shipped #link("https://apps.apple.com/app/id6466738852")[Rakulip] (on-device research video editor) on iOS/Android: built an FFmpeg-based editing pipeline, optimized quality/performance, and managed releases.
+    - Since 09/2025, delivered an external camera device integration app (confidential) for iOS/Android using Swift/Kotlin + Kotlin Multiplatform; validated SDK constraints via prototypes and produced handover documentation.
+    - Increased delivery speed and consistency by applying AI-assisted workflows for spec drafting, implementation, and reviews.
+  ],
+  dateFrom: "08/2023",
+  dateTo: "Present",
+)
+
+#workExperience(
+  title: "Flutter Engineer",
+  subtitle: [#link("https://h-medtech.com/")[Hedgehog Medtech, Inc.]],
+  facilityDescription: "Migraine & PMS medical treatment app development",
+  taskDescription: [
+    - Drove tech selection and Flutter architecture design; established coding rules and reusable components.
+    - Built CI/CD for app distribution (CodeMagic) and streamlined release operations.
+    - Implemented features with Riverpod/Freezed/i18n, reviewed code, and mentored cross-functional members on Flutter.
   ],
   dateFrom: "08/2022",
   dateTo: "03/2024",
 )
 
 #workExperience(
-  title: "Contract Development",
-  subtitle: [#link("https://apps.apple.com/app/id6466738852")[Rakulip]],
-  facilityDescription: "A video editor app for researchers in Hokkaido University",
+  title: "PdM / Flutter Engineer",
+  subtitle: [#link("https://thephage.life/")[THE PHAGE Inc.]],
+  facilityDescription: "Diabetes medical treatment app development",
   taskDescription: [
-    - Evaluated requirements and designed the architecture of the app.
-    - Developed the app using Flutter and FFmpeg.
-    - Released the app on the App Store and Google Play.
-    - Demonstrated and supported the use of the app at a conference.
-    - Enhanced the app based on feedback from users and achieved 30% increase in store rating.
-    - Fixed bugs and improved video quality by making adjustment to the FFmpeg parameters.
+    - Coordinated requirements across stakeholders and defined product/tech direction in an early-stage startup.
+    - Designed and shipped a Flutter app with Riverpod, i18n, and local DB; handled release and internal rollout.
+    - Researched and prototyped signal-processing based prediction for glucose trend analysis.
   ],
-  dateFrom: "08/2023",
-  dateTo: "03/2024",
-)
-
-#workExperience(
-  title: "Product Manager/Mobile App Developer",
-  subtitle: [#link("https://thephage.life/")[THE PHAGE, Inc.]],
-  facilityDescription: "Medical treatment app development company",
-  taskDescription: [
-    - Made a blueprint of the team and the product and led the company to the next stage.
-    - Developed a mobile app that makes biabetes treatment more efficient.
-    - Selected technologies that were best suited for the product and the team and led the company to have a better presence in the market.
-    - Researched and developed a cutting edge algorithm that processes signals from a wearable device and predicts the user's blood sugar level.
-  ],
-  dateFrom: "12/2020",
+  dateFrom: "11/2021",
   dateTo: "07/2022",
-)
-
-#workExperience(
-  title: "Chief Technology Officer",
-  subtitle: "Conomai, Inc.",
-  facilityDescription: "Medical treatment company",
-  taskDescription: [
-    - Made several minimum viable products and conducted user interviews to find out the best product for the company and the market.
-    - Inquired to venture capitalists and banks and raised funds for the company.
-    - Made capital plans and business plans and led the company to the next stage with the cofounders.
-  ],
-  dateFrom: "09/2019",
-  dateTo: "02/2020",
-)
-
-#workExperience(
-  title: "Internship",
-  subtitle: [#link("https://www.digitalgrid.com/")[DIGITAL GRID, Inc.]],
-  facilityDescription: "Electricity traceability and trading company",
-  taskDescription: [
-    - Explained the company's business at a conference and led to further business opportunities.
-    - Interviewed all the people in the company and made interview articles so that everyone in the company could better understand each other.
-  ],
-  dateFrom: "08/2020",
-  dateTo: "09/2020",
 )
 
 #colbreak()
@@ -116,24 +101,48 @@
 == Skills
 
 #pill("Flutter", fill: true)
+#pill("Dart", fill: true)
 #pill("Riverpod", fill: true)
-#pill("App Deployment", fill: true)
-#pill("Git/GitHub", fill: true)
-#pill("Jira", fill: true)
-#pill("Product Management", fill: true)
-#pill("Teamwork", fill: true)
-#pill("Critical thinking", fill: true)
-#pill("Problem solving", fill: true)
+#pill("Deep Links", fill: true)
+#pill("OAuth2.0/OIDC", fill: true)
+#pill("AI-assisted development (Codex/Cursor/Copilot)", fill: true)
+#pill("Swift")
+#pill("Kotlin")
+#pill("Kotlin Multiplatform")
+#pill("GoRouter")
+#pill("AutoRoute")
+#pill("Freezed")
+#pill("FFmpeg")
+#pill("Firebase / Firestore")
+#pill("CI/CD (CodeMagic/CircleCI/GitHub Actions)")
+#pill("Git/GitHub")
+#pill("melos (multi-package)")
+#pill("Testing / VRT")
+
+== AI
+
+- Use LLMs to accelerate spec-driven development: drafting specs, implementation plans, review checklists, and documentation.
+- Improve delivery speed and quality by integrating AI into day-to-day debugging and refactoring workflows.
 
 == Projects
+
+#project(
+  title: "Prakasya",
+  subtitle: "AI-assisted rapid prototyping (React + Supabase)",
+  description: [
+    - Built a validation environment (LP + waitlist + DB + analytics) in 2 days using React/Vite and Supabase.
+    - Used Codex/LLMs to iterate quickly and acquired 150 waitlist signups.
+  ],
+  dateFrom: "07/2025",
+  dateTo: "Present",
+)
 
 #project(
   title: link("https://github.com/torkralle/notion_wordbook")[Notion Wordbook],
   subtitle: "Vocabulary learning app for Notion users",
   description: [
-    - Developed with a team of three people using Flutter and Notion API.
-    - The app had a feature that references the user's Notion database and creates a vocabulary list out of it.
-    - Reviewed code and taught anything needed to junior members.
+    - Designed the app architecture and implemented features with Flutter + Riverpod.
+    - Established coding rules, reviewed code, and mentored junior members via pair programming.
   ],
   dateFrom: "02/2022",
   dateTo: "08/2022",
@@ -141,11 +150,10 @@
 
 #project(
   title: link("https://github.com/noriHanda/study_matching_flutter")[Study Matching],
-  subtitle: "SNS for campus students",
+  subtitle: "Campus community app (Flutter + Django REST)",
   description: [
-    - Developed with a team of three people using Flutter and Django REST framework.
-    - The app had a feature that matches students who want to study together.
-    - The number of users hit 1000 in 3 months.
+    - Launched and operated the app from zero to release; reached ~20% student registration at the university.
+    - Maintained backend infra (Django REST + PostgreSQL + Docker) and led code reviews and team onboarding.
   ],
   dateFrom: "06/2019",
   dateTo: "09/2020",
@@ -153,15 +161,5 @@
 
 == Languages
 
-#pill("Japanese (native)")
-#pill("English (fluent)")
-
-== Interests
-
-#pill("Buddhism")
-#pill("Indian Philosophy")
-#pill("Philosophy")
-#pill("European Football")
-#pill("Folkloristics")
-#pill("Agriscience")
-#pill("History")
+#pill("Japanese (Native)")
+#pill("English (Fluent; TOEFL iBT 104)")
