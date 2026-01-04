@@ -57,7 +57,7 @@
 
 #workExperience(
   title: "Senior Technology Project Manager",
-  subtitle: "Japan Advanced Communication Co., Ltd.",
+  subtitle: "Nippon Communications Inc.",
   facilityDescription: "Client-facing mobile app development (multiple projects)",
   taskDescription: [
     - Led requirements, architecture, and delivery across multiple Flutter projects; drove stakeholder alignment and scheduling.
