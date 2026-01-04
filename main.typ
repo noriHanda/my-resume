@@ -57,7 +57,7 @@
 
 #workExperience(
   title: "Senior Technology Project Manager",
-  subtitle: "Japan Advanced Communication Co., Ltd.",
+  subtitle: "Nippon Communications Inc.",
   facilityDescription: "Client-facing mobile app development (multiple projects)",
   taskDescription: [
     - Owned end-to-end delivery for multiple client projects: requirements definition, prioritization, scheduling, progress tracking, and release coordination.
