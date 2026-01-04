@@ -4,7 +4,6 @@
   name: "Noriaki Handa",
   jobTitle: "Mobile App Engineer (Flutter / iOS / Android)",
   bio: "Flutter/Riverpod specialist with deep-link and AI-assisted delivery experience.", // Optional parameter
-  avatarImagePath: "picture.jpeg",  // Optional parameter
   contactOptions: (               // Optional parameter, all entries are optional
     email: link("mailto:noriakihanda@gmail.com")[noriakihanda\@gmail.com],
     mobile: link("tel:+818066727600")[+81 80 6672 7600],
