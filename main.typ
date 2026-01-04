@@ -2,9 +2,8 @@
 
 #let data = (
   name: "Noriaki Handa",
-  jobTitle: "Technical Product / Project Manager (Mobile)",
+  jobTitle: "Technical Product / Project Manager",
   bio: "Technical PM with a mobile engineering background (Flutter / iOS / Android). Leads requirements, execution, and AI-enabled delivery. Available from Apr 2026.", // Optional parameter
-  avatarImagePath: "picture.jpeg",  // Optional parameter
   contactOptions: (               // Optional parameter, all entries are optional
     email: link("mailto:noriakihanda@gmail.com")[noriakihanda\@gmail.com],
     mobile: link("tel:+818066727600")[+81 80 6672 7600],
@@ -113,12 +112,12 @@
 
 == Skills
 
-#pill("Product Management", fill: true)
-#pill("Project Management", fill: true)
-#pill("Requirements & Spec Writing", fill: true)
-#pill("Stakeholder Management", fill: true)
-#pill("Roadmapping / Prioritization", fill: true)
-#pill("AI-enabled Delivery", fill: true)
+#pill("Product Management")
+#pill("Project Management")
+#pill("Requirements & Spec Writing")
+#pill("Stakeholder Management")
+#pill("Roadmapping / Prioritization")
+#pill("AI-enabled Delivery")
 #pill("Agile / Sprint Planning")
 #pill("Jira / Notion / Figma")
 #pill("Flutter / Dart")
@@ -173,3 +172,5 @@
 
 #pill("Japanese (Native)")
 #pill("English (Fluent; TOEFL iBT 104)")
+#pill("Pali (Beginner)")
+#pill("Sanskrit (Beginner)")
