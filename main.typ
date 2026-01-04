@@ -100,15 +100,14 @@
 
 == Skills
 
-#pill("Flutter", fill: true)
-#pill("Dart", fill: true)
-#pill("Riverpod", fill: true)
-#pill("Deep Links", fill: true)
-#pill("OAuth2.0/OIDC", fill: true)
-#pill("AI-assisted development (Codex/Cursor/Copilot)", fill: true)
+#pill("Flutter")
+#pill("Dart")
+#pill("Riverpod")
+#pill("Deep Links")
+#pill("OAuth2.0/OIDC")
+#pill("AI-assisted development (Codex/Cursor/Copilot)")
 #pill("Swift")
 #pill("Kotlin")
-#pill("Kotlin Multiplatform")
 #pill("GoRouter")
 #pill("AutoRoute")
 #pill("Freezed")
@@ -163,3 +162,5 @@
 
 #pill("Japanese (Native)")
 #pill("English (Fluent; TOEFL iBT 104)")
+#pill("Pali (Beginner)")
+#pill("Sanskrit (Beginner)")
