@@ -43,8 +43,8 @@
 == Work experience
 
 #workExperience(
-  title: "Flutter Engineer",
-  subtitle: [#link("https://www.teamlab.art/")[teamLab Inc.]],
+  title: "Lead Flutter Engineer",
+  subtitle: "Company T (confidential)",
   facilityDescription: "Ticket sales & video streaming app development",
   taskDescription: [
     - Authored requirement specs from wireframes and implemented core features (incl. 3rd-party login) in a large-scale project.
