@@ -44,7 +44,7 @@
 
 #workExperience(
   title: "Mobile App Engineer",
-  subtitle: [#link("https://www.teamlab.art/")[teamLab Inc.]],
+  subtitle: "Company T (confidential)",
   facilityDescription: "Ticket sales & video streaming app development",
   taskDescription: [
     - Converted wireframes into specs and aligned stakeholders; delivered core features (incl. 3rd-party auth) in a large-scale project.
